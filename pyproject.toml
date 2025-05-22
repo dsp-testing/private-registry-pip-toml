@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "my_project"
+version = "0.1.0"
+description = "My example pip toml project."
+authors = ["Harihran <thavaahariharangit@github.com>"]
+packages = []
+
+[tool.poetry.dependencies]
+thavaahariharangit_project = "0.1.0"
+
+[[tool.poetry.source]]
+name = "dependabot-pip"
+url = "https://thavaahariharangit@github.com:${secrets.JFROG_ARTIFACTORY_TOKEN}@jfrogghdemo.jfrog.io/artifactory/api/pypi/dependabot-pip/simple"
+priority = "primary"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
