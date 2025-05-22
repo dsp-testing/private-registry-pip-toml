@@ -6,7 +6,7 @@ authors = ["Harihran <thavaahariharangit@github.com>"]
 packages = []
 
 [tool.poetry.dependencies]
-thavaahariharangit_project = "0.1.0"
+thavaahariharangit_project = "0.2.0"
 
 [[tool.poetry.source]]
 name = "dependabot-pip"
